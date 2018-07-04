@@ -1,73 +1,50 @@
 .userWidget {
-	margin-top: 35px;
+	margin-top: 32px;
 	right: 0px;
 	padding: 0px 40px 0px 0px;
-	height: 24px;
-	transition:  all .4s ease-out;
+	height: 46px;
+	display: flex;
+	flex-wrap: wrap;
+	transition: all .4s ease-out;
 }
-
-.welcomeText {
-	font-size: 18px;
-	height: 24px;
-	line-height: 24px;
-	margin: 0px 10px;
-	float: left;
-	text-transform: capitalize;
-	color: #555555;
+.userWidget p {
+	margin: 0px;
+	height: 46px;
+	line-height: 46px;
+	margin-left: 8px;
 }
-
-.userEmail {
-	font-size: 12px;
+.userCircle {
+	background-color: #b1b1b1;
+	height: 46px;
+	width: 46px;
+	text-align: center;
+	line-height: 46px;
+	border-radius: 100%;
+}
+.userCircle p {
+	margin: 0px;
+	font-family: 'Roboto Mono', monospace;
+	color: #303030;
+	font-weight: bold;
+}
+.userDropdown {
+	border: none;
+	background-color: transparent;
 	height: 24px;
-	line-height: 24px;
-	font-weight: 500;
-	margin: 0px 10px;
-	float: left;
+	width: 24px;
+	margin-top: 11px;
+	margin-left: 4px;
+	border-radius: 100%;
+	padding: 0px;
+	outline: none;
+}
+.userDropdown i {
+	color: #606060 !important;
+}
+.userDropdown:hover {
+	background-color: #e6e6e6;
 }
 
 .logoutButton {
-	float: left;
-	display: block;
-	width: 80px;
-	height: 24px;
-	font-size: 12px;
-	margin: 0px 10px;
-	font-weight: 500;
-	outline: none;
-	color: #fff;
-	cursor: pointer;
-	text-align:center;
-	border: none;
-	background-size: 300% 100%;
-	border-radius: 5px;
-	moz-transition: all .4s ease-in-out;
-	-o-transition: all .4s ease-in-out;
-	-webkit-transition: all .4s ease-in-out;
-	transition: all .4s ease-in-out;
-	background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
-	box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
-	text-decoration: none;
-	line-height: 24px;
-}
-
-.logoutButton:hover {
-	background-position: 100% 0;
-	moz-transition: all .4s ease-in-out;
-	-o-transition: all .4s ease-in-out;
-	-webkit-transition: all .4s ease-in-out;
-	transition: all .4s ease-in-out;
-}
-
-.toggleWidget {
-	position: absolute;
-	height: 100%;
-	width: 15px;
-	top: 0;
-	left: 0;
-	background-color: transparent;
-	border: none;
-	padding: 0px;
-}
-.toggleWidget span {
-	/*??*/
+	flex-basis: 100%;
 }
