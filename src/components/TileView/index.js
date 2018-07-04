@@ -21,7 +21,6 @@ export default class TileView extends Component {
     return (
       <div className="eventTileView">
         {arr}
-        <span/>
       </div>
     );
   }

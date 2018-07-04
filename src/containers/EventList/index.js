@@ -18,6 +18,8 @@ class EventList extends Component {
       viewType: 0,
       opaqueTopBar: false
     }
+
+    document.body.style.backgroundColor = "#f9f9f9";
   }
 
   componentDidMount() {
@@ -41,7 +43,6 @@ class EventList extends Component {
 
     return (
         <div className="container">
-        <span/>
           <Header titleColor="black"/>
           <EventListSubHeader eventList={this}/>
           <div className="wrapper">

@@ -30,7 +30,6 @@ export default class ListView extends Component {
     return (
       <div className="eventListView">
         {arr}
-        <span/>
       </div>
     );
   }
