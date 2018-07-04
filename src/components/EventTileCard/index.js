@@ -13,7 +13,7 @@ const EventTileCard = ({event}) =>
         <span>of</span>
         <li>{event.capacity}</li>
     </div>
-    <button className="eventTileCardButton" onClick={() => {this.eventAction(event)}}>{event.button}</button>
+    <button className="eventTileCardButton" >{event.button}</button>
 </ul>
 
 export default EventTileCard;

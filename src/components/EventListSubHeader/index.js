@@ -20,7 +20,9 @@ class EventListSubHeader extends React.Component {
     }
 
     setView = (view) => {
-        this.toggleDropdown();
+        if (this.state.viewPickerOpen) {
+            this.toggleDropdown();
+        }
         this.setState({
             viewPicked: view
         })

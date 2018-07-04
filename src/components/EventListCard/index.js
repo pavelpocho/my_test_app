@@ -2,7 +2,7 @@ import React from 'react';
 import './index.css';
 
 const EventListCard = ({event}) =>
-<ul key={event.id} className="eventListCard">
+<ul key={event.id} className="eventListCard">  
     <li className="eventListCardName">{event.title}</li>
     <li className="eventListCardDescription">{event.description}</li>
     <li className="eventListCardDate" key={event.id} >{event.date}</li>
@@ -12,7 +12,7 @@ const EventListCard = ({event}) =>
         <span>of</span>
         <li>{event.capacity}</li>
     </div>
-    <button className="eventListCardButton" onClick={() => {this.eventAction(event)}}>{event.button}</button>
+    <button className="eventListCardButton" >{event.button}</button>
 </ul>
 
 export default EventListCard;

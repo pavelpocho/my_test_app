@@ -15,6 +15,8 @@ export default class Login extends Component {
       email: "",
       password: ""
     };
+
+    document.body.style.backgroundColor = "white";
   }
 
   validateForm() {

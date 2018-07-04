@@ -18,6 +18,8 @@ class EventList extends Component {
       viewType: 0,
       opaqueTopBar: false
     }
+
+    document.body.style.backgroundColor = "#f9f9f9";
   }
 
   componentDidMount() {
