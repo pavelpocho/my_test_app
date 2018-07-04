@@ -1,0 +1,79 @@
+.createEvent {
+  position: fixed;
+  width: 600px;
+  top: 0;
+  left: 0;
+  background-color: white;
+  z-index: 7;
+  box-shadow: 0 15px 35px rgba(50,50,93,.1),0 5px 15px rgba(0,0,0,.07);
+  opacity: 0;
+  transform: translate(0, 500px);
+  transition: all .3s ease-in-out;
+  border-radius: 4px;
+}
+
+.createEvent p {
+  text-transform: uppercase;
+  font-size: 18px;
+  margin: 0px;
+  padding: 18px 0px 18px 18px;
+  border-bottom: 1px solid #d1d1d1;
+  position: relative;
+}
+
+.createEvent ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.createEvent ul li input, .createEvent ul li textarea {
+  border: none;
+  border-bottom: 1px solid #b1b1b1;
+  padding: 2px;
+  outline: none;
+  font-size: 13px;
+  width: 200px;
+}
+
+.createEvent ul li p {
+  text-transform: none;
+  display: inline-block;
+  font-size: 13px;
+  width: 80px;
+  text-align: right;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+}
+
+.saveEvent {
+    width: 100px;
+    height: 25px;
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 50px 40px 40px 0px;
+    font-weight: 500;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 5px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+
+.saveEvent:hover {
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}

@@ -1,0 +1,73 @@
+.userWidget {
+	margin-top: 35px;
+	right: 0px;
+	padding: 0px 40px 0px 0px;
+	height: 24px;
+	transition:  all .4s ease-out;
+}
+
+.welcomeText {
+	font-size: 18px;
+	height: 24px;
+	line-height: 24px;
+	margin: 0px 10px;
+	float: left;
+	text-transform: capitalize;
+	color: #555555;
+}
+
+.userEmail {
+	font-size: 12px;
+	height: 24px;
+	line-height: 24px;
+	font-weight: 500;
+	margin: 0px 10px;
+	float: left;
+}
+
+.logoutButton {
+	float: left;
+	display: block;
+	width: 80px;
+	height: 24px;
+	font-size: 12px;
+	margin: 0px 10px;
+	font-weight: 500;
+	outline: none;
+	color: #fff;
+	cursor: pointer;
+	text-align:center;
+	border: none;
+	background-size: 300% 100%;
+	border-radius: 5px;
+	moz-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+	background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+	box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+	text-decoration: none;
+	line-height: 24px;
+}
+
+.logoutButton:hover {
+	background-position: 100% 0;
+	moz-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+
+.toggleWidget {
+	position: absolute;
+	height: 100%;
+	width: 15px;
+	top: 0;
+	left: 0;
+	background-color: transparent;
+	border: none;
+	padding: 0px;
+}
+.toggleWidget span {
+	/*??*/
+}

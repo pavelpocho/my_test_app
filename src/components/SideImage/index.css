@@ -1,0 +1,43 @@
+
+@media all and (max-width: 900px), all and (orientation: portrait) {
+    .sideImageWrap {
+        display: none;
+    }
+  }
+  
+  @media all and (min-width: 900px) and (orientation: landscape) {
+    .sideImageWrap {
+        display: block;
+        height: 100vh;
+        position: relative;
+    }
+    .sideImage {
+        max-height:100vh;
+    }
+    .quoteWrap {
+        text-align: center;
+        position: absolute;
+        left: 0px;
+        bottom: 30px;
+        width: 100%;
+    }
+    .sideImageQuote {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 35px;
+        color: white;
+        max-width: 250px;
+        margin: 0px auto 25px;
+    }
+    .quoteSeparator {
+        margin: -10px auto 15px;
+        width: 20px;
+        height: 4px;
+        background-color: green;
+        border-radius: 2px;
+    }
+    .quoteAuthor {
+        font-size: 13px;
+        font-weight: 700;
+    }
+  }
+  

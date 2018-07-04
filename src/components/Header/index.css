@@ -1,0 +1,81 @@
+@media all and (min-width: 900px) and (orientation: landscape) {
+    .siteHeader {
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .siteTitle {
+        font-size: 26px;
+        margin-top: 40px;
+        margin-left: 40px;
+        font-weight: 700;
+        color: white;
+    }
+    .siteHeaderSignedIn {
+        position: relative;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .siteTitleSignedIn {
+        font-size: 26px;
+        margin-top: 32px;
+        margin-left: 32px;
+        margin-bottom: 100px;
+        font-weight: 700;
+        color: black;
+    }
+    .userInfo {
+        font-size: 18px;
+        margin-top: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media all and (max-width: 900px), all and (orientation: portrait) {
+    .siteHeader {
+        position: relative;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .siteTitle {
+        font-size: 26px;
+        margin-top: 5%;
+        margin-left: 5%;
+        font-weight: 700;
+        color: black;
+    }
+    .userInfo {
+        font-size: 18px;
+        margin-top: 10%;
+        margin-right: 10%;
+    }
+    .siteHeaderSignedIn {
+        position: relative;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .siteTitleSignedIn {
+        font-size: 26px;
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-bottom: 15%;
+        font-weight: 700;
+        color: black;
+    }
+}
