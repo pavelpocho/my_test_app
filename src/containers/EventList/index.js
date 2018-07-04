@@ -41,6 +41,7 @@ class EventList extends Component {
 
     return (
         <div className="container">
+        <span/>
           <Header titleColor="black"/>
           <EventListSubHeader eventList={this}/>
           <div className="wrapper">

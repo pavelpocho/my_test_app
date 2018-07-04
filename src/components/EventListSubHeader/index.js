@@ -40,6 +40,7 @@ class EventListSubHeader extends React.Component {
 
         return (
             <div className="eventListSubHeader">
+                <span/>
                 <div className="viewPicker">
                     <p>Show:</p>
                     <div className={className}>

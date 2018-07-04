@@ -3,6 +3,7 @@ import './index.css';
 
 const EventListCard = ({event}) =>
 <ul key={event.id} className="eventListCard">
+    <span/>
     <li className="eventListCardName">{event.title}</li>
     <li className="eventListCardDescription">{event.description}</li>
     <li className="eventListCardDate" key={event.id} >{event.date}</li>

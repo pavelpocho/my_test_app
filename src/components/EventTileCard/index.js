@@ -3,6 +3,7 @@ import './index.css';
 
 const EventTileCard = ({event}) =>
 <ul key={event.id} className="eventTileCard">
+<span/>
 <li className="eventTileCardDate" key={event.id} >{event.date}</li>
     <li className="eventTileCardName">{event.title}</li>
     <li className="eventTileCardAuthor" key={event.author}>{event.author}</li>
